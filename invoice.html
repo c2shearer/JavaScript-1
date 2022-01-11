@@ -9,25 +9,30 @@
 <body>
     <h1>Customer Name: </h1>
     <h2>Invoice</h2>
+    <form>
+        <label for="sign" id="sign" name="sign">Custom Message:</label>
+        <input type="text" id="inputSign" name="inputSign"> 
+        <button type="button" onclick="calculateCost()">Update</button>
+    </form>
     <table>
         <tr>
             <th>Customer Sign:</th>
-            <th><p id="usersign"></p></th>
+            <td><p id="usersign"></p></td>
         </tr>
         <tr>
-            <td>Total Tile Count:</td>
+            <th>Total Tile Count:</th>
             <td><p id="tiles"></p></td>
         </tr>
         <tr>
-            <td>Subtotal:</td>
+            <th>Subtotal:</th>
             <td><p id="subtotal"></p></td>
         </tr>
         <tr>
-            <td>Shipping</td>
+            <th>Shipping</th>
             <td><p id="shipping"></p></td>
         </tr>
         <tr>
-            <td>Total</td>
+            <th>Total</th>
             <td><p id="total"></p></td>
         </tr>
       </table>
