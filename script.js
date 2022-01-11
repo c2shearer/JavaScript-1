@@ -8,6 +8,40 @@ for (let i = 0; i < cameron.length; i++) {
 
 console.log(`My name is ${cameron} and I am ${age}`);
 
+document.getElementById("msg").innerHTML = "Hello " + cameron;
+
+var today = new Date();
+var hour = today.getHours();
+var greeting;
+
+// Check if Time is 6 o'clock
+/*if (hour > 18) {
+    greeting = "Evening!";
+} else if (hour > 12) {
+    greeting = "Afternoon!";
+} else if (hour > 5) {
+    greeting = "Morning";
+} else if (hour > 23 && hour < 5) {
+    greeting ="Night"
+}
+
+document.write(`<h2>${greeting}</h2>`)
+
+document.getElementById("time").innerHTML = "";*/
+
+// Invoice
+var sign = "Bristol Zoo";
+var signLength = sign.length;
+var subtotal = length * 2.99;
+var shipping = 4.99;
+var total = subtotal + shipping;
+
+document.getElementById("usersign").innerHTML = sign;
+document.getElementById("tiles").textContent = signLength;
+document.getElementById("subtotal").textContent = `£${subtotal}`;
+document.getElementById("shipping").textContent = `£${shipping}`;
+document.getElementById("total").textContent = `£${total}`;
+
 // Opens Alert 
 // alert("Hello World!"); 
 
