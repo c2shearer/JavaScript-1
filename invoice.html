@@ -13,8 +13,15 @@
         <label for="sign" id="sign" name="sign">Custom Message:</label>
         <input type="text" id="inputSign" name="inputSign"> 
         <button type="button" onclick="calculateCost()">Update</button>
+
+        <select id="font" onchange="test()">
+            <option value="styleOne">Bar Code</option>
+            <option value="styleTwo">Japanese</option>
+            <option value="styleThree">Random</option>
+        </select>
     </form>
     <table>
+        <p class="errorMessage" id="error"></p>
         <tr>
             <th>Customer Sign:</th>
             <td><p id="usersign"></p></td>

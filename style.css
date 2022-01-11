@@ -1,10 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+128&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
 body {
     background-color: lightblue;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
-form label{
-   padding: 10px; 
+.japan {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.barcode {
+    font-family: 'Libre Barcode 128', cursive;
+}
+
+.kanit {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.errorMessage {
+    color: red;
+    font-weight: hold;
+}
+
+input {
+    font-family: 'Libre Barcode 128', cursive;
+}
+
+label {
+    padding: 10px;
 }
 
 button {
